@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { getApiUrl } from '../utils/api';
 
+// Codespaces endpoint example: -8000.app.github.dev/api/leaderboard
+
 export default function Leaderboard() {
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);

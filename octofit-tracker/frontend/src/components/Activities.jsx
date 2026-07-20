@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { getApiUrl } from '../utils/api';
 
+// Codespaces endpoint example: -8000.app.github.dev/api/activities
+
 export default function Activities() {
   const [activities, setActivities] = useState([]);
   const [loading, setLoading] = useState(true);

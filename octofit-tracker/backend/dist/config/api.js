@@ -1,4 +1,4 @@
-export const getApiBaseUrl = (req) => {
+export const getApiBaseUrl = (_req) => {
     const codespaceName = process.env.CODESPACE_NAME;
     const port = process.env.PORT || '8000';
     if (codespaceName) {

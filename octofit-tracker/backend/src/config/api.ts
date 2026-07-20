@@ -1,6 +1,6 @@
 import type { Request } from 'express';
 
-export const getApiBaseUrl = (req?: Request) => {
+export const getApiBaseUrl = (_req?: Request) => {
   const codespaceName = process.env.CODESPACE_NAME;
   const port = process.env.PORT || '8000';
 
